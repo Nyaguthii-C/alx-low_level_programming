@@ -3,7 +3,7 @@
 /**
  * main - this is the entry point for the program
  * void: shows we do not have arguments for the main function
- * Description: the functions inside the main function are executed 
+ * Description:the functions inside the main function are executed
  */
 
 int main(void)
