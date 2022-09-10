@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * This function prints a given string
- * puts - prints out the string
  * main - this is the entry point for the program
+ * void: shows we do not have arguments for the main function
+ * Description: the functions inside the main function are executed 
  */
 
 int main(void)
