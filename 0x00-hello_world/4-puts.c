@@ -3,7 +3,7 @@
 /**
  * main - this is the entry point for the program
  * Description:the main function contains other  functions to execute
- *
+ * prints \"Programming is like building a multilingual puzzle
  * Return : 0 always
  * Description : a return value at the end of main to end the program
  */
