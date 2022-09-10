@@ -2,7 +2,7 @@
 
 /**
  * Description : main - prints the sizeof a char is...
- * Return : 0 if successful
+ * Return : 0 
  */
 
 int main(void)
