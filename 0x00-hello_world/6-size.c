@@ -1,8 +1,8 @@
 # include <stdio.h>
 
 /**
- * Description : Main - prints the sizeof a char is...
- * Return : 0 always
+ * Description : main - prints the sizeof a char is...
+ * Return : 0 if successful
  */
 
 int main(void)
