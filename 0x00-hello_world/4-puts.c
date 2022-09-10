@@ -2,7 +2,7 @@
 
 /**
  * main - this is the entry point for the program
- * Description:the functions inside the main function are execute
+ * Description:the main function contains other  functions to execute
  *
  *return : 0
  * Description : a return value at the end of main to end the program
