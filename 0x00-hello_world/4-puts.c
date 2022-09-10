@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Description: main- prints "Programming is like building a multilingual puzzle
- * Return : 0 always
+ * Description: main- prints "Programming is like building a multilingual..
+ * Return: 0 always.
  */
 
 int main(void)
