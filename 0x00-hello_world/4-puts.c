@@ -2,13 +2,15 @@
 
 /**
  * This function prints a given string
- * The sting is printed using puts()
-*/
+ * puts - prints out the string
+ * main - this is the entry point for the program
+ */
 
 int main(void)
 {
-	/*prints the string in a newline*/
+	/* puts()- prints the string in a newline
+	 * return (0) - a return value at the end of main to end the program 
+	 */
 	puts("\"Programming is like building a multilingual puzzle");
-	/* a return value at the end of main to end the program */
 	return (0);
 }
