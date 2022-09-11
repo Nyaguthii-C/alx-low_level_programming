@@ -12,3 +12,8 @@
 - 5-printf.c prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
 
 - 6-size.c prints the size of various types on the computer it is compiled and run on
+
+- 100-intel generates assembly code (intel syntax) and saves it in an output file
+
+- 101-quote.c prints a quote to the standard error
+
