@@ -3,12 +3,13 @@
 /**
  * main -entry point
  *
- * Return:0 always
+ * Return: 1
  */
 
 int main(void)
 {
 	/*fprintf() prints to standard error stderr*/
-	fprintf("and that piece of art is useful\"
-			"NC "- Dora Korpar, 2015-10-19\n", stderr);
-	return (0);
+	fprintf(stderr, "and that piece of art is useful\"\n");
+	fprintf(stderr, "- Dora Korpar, 2015-10-1");
+	return (1);
+}
