@@ -1,7 +1,8 @@
 # include <stdio.h>
 
 /**
- * Description : main - prints the sizeof a char is...
+ * main - prints the sizeof a char is...
+ *
  * Return : always 0 if successful
  */
 
