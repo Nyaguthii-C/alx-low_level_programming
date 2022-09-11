@@ -9,7 +9,7 @@
 int main(void)
 {
 	/*fprintf() prints to standard error stderr*/
-	fprintf(stderr, "and that piece of art is useful\"\n");
-	fprintf(stderr, "- Dora Korpar, 2015-10-1");
+	fprintf(stderr, "and that piece of art is useful\" \n");
+	fprintf(stderr, " - Dora Korpar, 2015-10-1");
 	return (1);
 }
