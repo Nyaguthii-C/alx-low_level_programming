@@ -15,22 +15,24 @@
 int main(void)
 {
 	int n;
-	int LD = n % 10; /*LD - Last Digit*/
+	int LD;
+	char str = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	LD = n % 10; /*LD - Last Digit*/ 
+	
 	if (LD > 5)
 	{
-		printf("Last digit of %i is %i and is greater than 5\n", n, LD);
+		printf("Last digit of %d is %d and is greater than 5\n", n, LD);
 	}
 	else if (LD == 0)
 	{
-		printf("Last digit of %i is %i and is zero\n", n, LD);
+		printf("Last digit of %d is %d and is zero\n", n, LD);
 	}
-	else(LD < 6 && LD != 0)
+	else(LD < 6);
 	{
-		printf("Last digit of %i is %i");
-		printf("and is less than 6 and not 0\n", n, LD);
+		printf("%s %d is %d and is less than 6 and not 0\n", str, n, LD);
 	return (0);
 	}
 }
