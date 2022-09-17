@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * print_numbers - prints number from 0 to 9
+ * _putchar -prints each number
+ */
+
+void print_numbers(void)
+{
+	int i;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (i = 2 && i = 4;)
+		{
+			break;
+		}
+		_putchar(i);
+	}
+_putchar('\n');
+}
