@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_numbers - prints number from 0 to 9
+ * print_numbers - prints number from 0 to 9 except 2 and 4
  * _putchar -prints each number
  */
 
