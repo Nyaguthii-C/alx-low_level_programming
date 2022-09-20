@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _puts - prints string to styandard output
+ * _puts - prints string to standard output
  * putchar - inserts a  character into string
- *@i: integer
+ * @str: the string
  *
  * Return: nothing
  */
@@ -14,8 +14,8 @@ void _puts(char *str)
 
 	while (str[i])
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
