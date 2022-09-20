@@ -1,14 +1,21 @@
 #include "main.h"
 
 /**
- * _puts - prints a string to standard output
- *@str:string
+ * _puts - prints string to styandard output
+ * putchar - inserts a  character into string
+ *@i: integer
  *
  * Return: nothing
  */
 
 void _puts(char *str)
 {
-	_puts(str);
-	_putchar('\n');
+	int i = 0;
+
+	while (str[i])
+	{
+		putchar(str[i]);
+		i++;
+	}
+	putchar('\n');
 }
