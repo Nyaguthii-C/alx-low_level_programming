@@ -7,6 +7,6 @@ void swap_int(int *a, int *b);
 
 void _puts(char *str);
 
-int _putchar(int i);
+int putchar(int i);
 
 #endif /*MAIN_H*/
