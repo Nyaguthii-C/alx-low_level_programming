@@ -13,11 +13,10 @@ void print_rev(char *s)
 	int i;
 
 	for (i = 0; *s != '\0'; ++i)
+		;
+	for (--i; i >= 0; --i)
 	{
-		for (--i; i >= 0;)
-		{
-			putchar(s[i]);
-		}
-		putchar('\n');
+		putchar(s[i]);
 	}
+	putchar('\n');
 }
