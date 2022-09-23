@@ -9,8 +9,10 @@
 
 int main(void)
 {
-	int i = 1;
-
+	int j = 1;
+	int i = 2;
+	
+	printf("%d", j);
 	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
