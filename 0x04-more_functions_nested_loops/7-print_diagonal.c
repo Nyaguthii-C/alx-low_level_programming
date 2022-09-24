@@ -2,8 +2,10 @@
 
 /**
  * print_diagonal - prints a line
- * @n: number of times to print \
- * _putchar - prints the character \
+ * @n: number of times to print '\'
+ * _putchar - prints the character '\'
+ *
+ * Return: nothing
  */
 
 void print_diagonal(int n)
@@ -17,7 +19,6 @@ void print_diagonal(int n)
 			int count = 0;
 
 			_putchar('\n');
-		
 			while (count < i)
 			{
 				_putchar(' ');
