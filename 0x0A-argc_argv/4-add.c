@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	else if (n < 48 && n > 57)
+	else if (n != 48 && !(n >= 57))
 	{
 		printf("Error\n");
 		return (0);
