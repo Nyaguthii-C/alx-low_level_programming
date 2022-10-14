@@ -1,4 +1,5 @@
-# C language programming
+# 		Project: Low Level Programing and Algorithm
+##			C language programming
 - 0x00. C - Hello, World
 - 0x01. C - Variables, if, else, while
 - 0x02. C - 2-functions_nested_loops
@@ -13,3 +14,4 @@
 - 0x09. C - Static libraries
 - 0x0D. C - Preprocessor
 - 0x0F. C - Function_pointers
+- 0x0E. C - structures_typedef
