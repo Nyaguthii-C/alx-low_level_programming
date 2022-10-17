@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
-*struct dog - structure for dog
+*struct dog_t - structure for dog
 * @name: pointer for element in structure dog
 * @age: age element in struct
 * @owner: pointer owner element
