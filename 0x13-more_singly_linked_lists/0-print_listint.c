@@ -4,7 +4,7 @@
 * print_listint - prints all elements of list
 * @h: header to first node in list
 *
-* Return: 0
+* Return: elements count if list not empty, 0 otherwise
 */
 size_t print_listint(const listint_t *h)
 {
