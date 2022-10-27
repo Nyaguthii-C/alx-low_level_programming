@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for(i = 0; str[i]; i++)
+		for (i = 0; str[i]; i++)
 		{
 			ptr = malloc(i * sizeof(char));
 		}
@@ -29,13 +29,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
- 	else
+	else
 	{
 		for (j = 0; j < i; j++)
 		{
 			ptr[j] = str[j];
 		}
-		
 	}
 	return (ptr);
 }
