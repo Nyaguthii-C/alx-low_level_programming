@@ -13,22 +13,32 @@ int main(int argc, char *argv[])
 	int n = 0;
 	int add = 0;
 
-	if (argc <= 1)
+	if (argc <= 0)
 	{
 		printf("0\n");
 	}
-	else if (n != 48 && !(n >= 57))
-	{
-		printf("Error\n");
-		return (0);
-	}
-	else
+	/**
+	*else if (argv[n] < 0 && argv[n] > 9)
+	*{
+	*	printf("Error\n");
+	*	return (0);
+	*}
+	*/
+	else if (argc > 0)
 	{
 		for (n = 1; n < argc; n++)
 		{
-			add += atoi(argv[n]);
+			if (argv[n] >= '0' && argv[n] <= '9')
+			{
+				n++;
+				add += atoi(argv[n]);
+			}
+			printf("%d\n", add);
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		printf("%d\n", add);
-	}
-	return (0);
+		return (0);
 }
