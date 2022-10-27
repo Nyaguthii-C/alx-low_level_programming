@@ -15,3 +15,5 @@
 - 0x0D. C - Preprocessor
 - 0x0F. C - Function_pointers
 - 0x0E. C - structures_typedef
+- 0x10. C - Variadic functions
+- 0x12. C - Singly linked lists
