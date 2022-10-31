@@ -1,5 +1,6 @@
-##Project: 0x14-bit_manipulation
-##Tasks
+## Project: 0x14-bit_manipulation
+
+## Tasks
 
 - 0-binary_to_uint.c - converts a binary to an unsigned int
 
