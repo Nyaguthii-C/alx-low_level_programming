@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+#include<stdlib.h>
 /**
 * cops_add - returns the sum of integers a and b
 * @a: integer a
 * @b: integer b
 * Return: adition of a and b
 */
-int cops_add(int a, int b)
+int cop_add(int a, int b)
 {
 	return (a + b);
 }
@@ -16,7 +17,7 @@ int cops_add(int a, int b)
 * @b: integer denominator
 * Return: value after subtracting  from a
 */
-int cops_sub(int a, int b)
+int cop_sub(int a, int b)
 {
 	return (a - b);
 }
@@ -26,7 +27,7 @@ int cops_sub(int a, int b)
 * @b: integer b
 * Return: value after mul
 */
-int cops_mul(int a, int b)
+int cop_mul(int a, int b)
 {
 	return (a * b);
 }
@@ -36,7 +37,7 @@ int cops_mul(int a, int b)
 * @b: integer b
 * Return: division of a by b
 */
-int cops_div(int a, int b)
+int cop_div(int a, int b)
 {
 	return (a / b);
 }
@@ -46,7 +47,7 @@ int cops_div(int a, int b)
 * @b: int b
 * Return: modulus of a and b
 */
-int cops_mod(int a, int b)
+int cop_mod(int a, int b)
 {
 	return (a % b);
 }
