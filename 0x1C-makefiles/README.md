@@ -7,7 +7,7 @@ Requirements:
 	- rules: all  
 		- The all rule builds your executable
 	- variables: none
-- 1-Makefile 
+- 1-Makefile   
 Requirements:  
 	- name of the executable: school
 	- rules: all
