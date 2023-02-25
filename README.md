@@ -21,3 +21,4 @@
 - 0x14. C - Bit_manipulation
 - 0x15. C - File I/O
 - 0x18. C - Dynamic libraries
+- 0x1C. C - Makefiles
