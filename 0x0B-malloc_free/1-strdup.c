@@ -12,20 +12,19 @@
 char *_strdup(char *str)
 {
 	char *ptr;
-	int i;
-	int j;
+	int i, j;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	else
+
+	for (i = 0; str[i]; i++)
 	{
-		for (i = 0; str[i]; i++)
-		{
-			ptr = malloc(i * sizeof(char));
-		}
+		;
 	}
+	/* Allocate size */
+	ptr = malloc((i + 1) * sizeof(char));
 	if (ptr == NULL)
 	{
 		return (NULL);
@@ -36,6 +35,6 @@ char *_strdup(char *str)
 		{
 			ptr[j] = str[j];
 		}
+		return (ptr);
 	}
-	return (ptr);
 }
