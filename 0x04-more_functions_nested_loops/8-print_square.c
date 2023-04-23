@@ -19,12 +19,12 @@ void print_square(int size)
 	{
 		for (row = 1; row <= size; row++)
 		{
-			_putchar('\n');
+			 _putchar('\n');
 			for (column = 1; column <= size; column++)
 			{
 				_putchar('#');
 			}
-			_putchar('\n');
+			 _putchar('\n');
 		}
 	}
 }
