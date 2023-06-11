@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* set_bit - sets the value of a bit to 1 at a given index
-* @n: integer whose bit is set
-* @index: position to set bit at
+* clear_bit - sets the value of a bit to 1 at a given index
+* @n: integer whose bit is cleared
+* @index: position to clear bit at
 *
 * Return: 1 if it worked, or -1 if an error occurred
 */
@@ -21,7 +21,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	}
 	/* set variable to point at position of bit wanted */
 	pos = pos << index;
-	/* set value of bit */
+	/* reset value of bit */
 	if ((pos | *n) == *n)
 	{
 		*n = *n ^ pos;
