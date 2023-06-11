@@ -11,7 +11,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int pos = 0;
 	/* traverse through the list via next node address in next */
-	while(head->next != NULL)
+	while (head->next != NULL)
 	{
 		if (pos == index)
 		{
