@@ -22,3 +22,6 @@
 		}  
 		return (map);  
 	}  
+- **101-O** - time complexity (average case) of a jump search in an array of size n, using step = sqrt(n)
+- **107-O** -  the time complexity (average case) of a jump search in a singly linked list of size n, using step = sqrt(n)
+- **108** - the time complexity (average case) of a jump search in a skip list of size n, with an express lane using step = sqrt(n)
